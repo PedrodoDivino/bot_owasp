@@ -9,7 +9,6 @@ bot.on("message", (msg) => {
   let firstName = msg.from.first_name;
   const text = msg.text;
   const zero = "0";
-  let opcao = '';
 
   console.log(msg, chatId);
   switch (text) {
@@ -117,7 +116,7 @@ Não é o que está procurando ${firstName}? É só mandar "${zero}" e encerrar 
           `Software and Data Integrity Failures é uma nova categoria para 2021, com foco em fazer suposições relacionadas a atualizações de software, dados críticos e pipelines de CI/CD sem verificar a integridade. Um dos impactos mais ponderados dos dados do Common Vulnerability and Exposures/Common Vulnerability Scoring System (CVE/CVSS) mapeados para os 10 CWEs nesta categoria. A8:2017-A desserialização insegura agora faz parte dessa categoria maior
           \nAqui estão alguns links para um estudo mais aprofundado:\n✅Fatores ->  https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#factors\n✅Visão Geral -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#overview\n✅Descrição -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#description\n✅Como Prevenir -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#how-to-prevent\n✅Exemplos de cenários de ataque -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#example-attack-scenarios\n✅Referências -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#references\n✅Lista de CWEs Mapeados -> https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/#list-of-mapped-cwes\n`
         );
-  
+   
         break;
   
       case "9":
