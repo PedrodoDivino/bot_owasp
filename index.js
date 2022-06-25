@@ -1,5 +1,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 const env = require('./.env');
+const token = "5381470430:AAEqTpkOlkPjTrh77RIfyumQCPECW30urBI";
+// quando desligar o servidor, passar o token para a pasta .env e vice versa
 
 const bot = new TelegramBot(token, { polling: true });
 
